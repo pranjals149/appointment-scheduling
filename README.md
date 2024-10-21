@@ -39,3 +39,8 @@ SCSS Modules: Modular SCSS files (calendar.scss, modal.scss, notification.scss, 
 2. Edit Appointment: The modal is pre-filled with the existing appointment data, allowing users to modify any field. On submission, the appointment details are updated in the state.
 3. Delete Appointment: Upon user confirmation, the specific appointment is removed from the state, and a notification is triggered.
 
+### Screen recording
+
+https://github.com/user-attachments/assets/8d095c54-87ab-4562-a364-1942705fb76e
+
+
