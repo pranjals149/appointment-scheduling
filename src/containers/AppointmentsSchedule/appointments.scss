@@ -1,0 +1,32 @@
+.appointment {
+  &__scheduler {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+.notification {
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__heading {
+    font-size: 14px;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 2px;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+  }
+
+  &__item {
+    font-size: 12px;
+  }
+}

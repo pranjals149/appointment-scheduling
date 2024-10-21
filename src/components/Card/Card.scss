@@ -1,0 +1,102 @@
+.appointment {
+  &__card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 768px) {
+      max-width: 100%;
+      padding: 12px;
+      margin: 8px;
+    }
+
+    @media (max-width: 480px) {
+      padding: 10px;
+      margin: 6px;
+      max-width: 100%;
+    }
+  }
+
+  &__date-time {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 480px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  &__title {
+    font-size: 16px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 2px;
+
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 12px;
+      margin-bottom: 6px;
+    }
+  }
+
+  &__date,
+  &__time {
+    font-size: 12px;
+    color: #666;
+
+    @media (max-width: 768px) {
+      font-size: 11px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 10px;
+    }
+  }
+
+  &__userName,
+  &__email {
+    font-size: 14px;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 11px;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+  }
+
+  &__edit-btn,
+  &__delete-btn {
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+
+  &__delete-btn {
+    background: none;
+    color: black;
+  }
+}
